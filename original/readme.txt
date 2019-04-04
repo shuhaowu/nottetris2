@@ -1,13 +1,6 @@
 Xenial libraries:
 
-libalut-dev
-liblua5.1-0-dev
-libdevil-dev
-libmng-dev
-libphysfs-dev
-libmodplug-dev
-libmpg123-dev
-libvorbis-dev
+libalut-dev liblua5.1-0-dev libdevil-dev libmng-dev libphysfs-dev libmodplug-dev libmpg123-dev libvorbis-dev libsdl1.2-dev libfreetype6-dev
 
 Create .love: zip -9 -r ../nt2.love .
 

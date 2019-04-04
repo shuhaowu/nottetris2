@@ -1,0 +1,19 @@
+name: nt2-orig
+image: ubuntu/xenial
+
+users:
+  - name: btw
+    shell: /bin/bash
+    sudoer: yes
+
+shell:
+  user: btw
+
+shares:
+  - source: .
+    dest: /home/btw/original
+
+x11:
+  enabled: yes
+  extra_driver_paths:
+    - /usr/lib/nvidia-384
